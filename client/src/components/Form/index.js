@@ -2,7 +2,15 @@ import React from "react";
 
 function Form({ q, handleInputChange, handleFormSubmit }) {
   return (
-    // YOUR CODE HERE
+    <div className="form-group">
+      <form>
+        <label>
+          Search Books:
+          <input type="text" name="book"/>
+        </label>
+        <button type="submit" value="Submit"/>
+      </form>
+    </div>
   );
 }
 
